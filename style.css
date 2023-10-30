@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+#menu-superior {
+  background-image: url(./imagens/fundo-menusuperior.svg);
+  height: 400px;
+}
+#titulotexto-menu {
+  color: #ffffff;
+  padding: 150px 0 0 50px;
+}
+#mercado-quantidade {
+  display: grid;
+  grid-auto-flow: column;
+  grid-row: auto;
+  padding: 70px 0px 70px 150px;
+  background-color: #f9f9f9;
+}
+.img-mercadoequant {
+  width: 200px;
+}
+#historia-experiencia {
+  display: grid;
+  grid-auto-flow: column;
+  grid-row: auto;
+  padding: 30px;
+  margin-top: 30px;
+}
+#textotitulo-historia {
+  margin-top: 170px;
+}
+#texto-historiaexp {
+  margin-top: 20px;
+}
+#imghistoriaex2 {
+  display: none;
+}
+#imgicone {
+  display: grid;
+  grid-auto-flow: column;
+  grid-row: auto;
+}
+.seta {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  margin-top: 250px;
+}
+#menu-inferior {
+  background-image: url(./imagens/imagem-formularioinferior.svg);
+  padding: 30px;
+  height: 400px;
+}
+#titulo-menuinferior {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  margin-top: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  place-items: center;
+  margin-top: 45px;
+}
+input {
+  width: 400px;
+  height: 45px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 0px 0px 0px 15px;
+  font-weight: bolder;
+  color: #0000004d;
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+}
+button {
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #c07212;
+  border: none;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 20px;
+}
+button:hover {
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #e4983c;
+  transition-duration: 0.8s;
+}
